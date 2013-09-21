@@ -1,87 +1,30 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
 body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    background: black;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding-top: 60px;
 }
 
-/* Style */
-
-body {
-  font-size: 15px;
-  font-family: Arial, Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-
-  background: url("../images/low_contrast_linen/low_contrast_linen.png") repeat;
+h1 {
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
 }
 
-.stripe {
-  margin-top: 30%;
-  height: 100px;
-  background: url("../images/furley_bg/furley_bg.png") repeat;
-  padding: 20px 60px;
-  vertical-align: middle;
+.floater {
+    /*background: red;*/
+    /*border: 2px solid #464646*/
 }
 
-.pull-right {
-    float: right;
+.boldly {
+    margin-top: 40px;
 }
 
-.title {
-    margin-top: -10px;
-    font-size: 80px;
-    font-family: 'La chata';
-    /*font-family: 'Modern Antiqua';*/
-    font-weight: bold; 
-    font-style: normal;
-    line-height: 100px;
+.boldly h1 {
+    font-size: 2.5em;
+    line-height: 1.3em;
 }
 
-.subtitle {
-    line-height: 100px;
-    font-size: 40px;
-    font-family: 'La chata';
-    /*font-family: 'Modern Antiqua';*/
+footer {
+    margin-top: 40px;
+    padding: 15px 20px;
+    border-top: 2px solid #2e2e2e
 }
